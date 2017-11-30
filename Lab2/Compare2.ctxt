@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Compare2
-comment1.params=
-comment1.target=Compare2()
+comment1.params=i1\ i2
+comment1.target=Compare2(int,\ int)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Compare2\r\n
 comment2.params=i1\ i2
 comment2.target=void\ largest(int,\ int)

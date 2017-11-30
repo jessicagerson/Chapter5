@@ -18,8 +18,8 @@ public class LargestDriver
         System.out.println("String #2: ");
         String s2 = scan.next();
         System.out.println("___________________________________________________");
-        //System.out.println("Result using the Compare1 class: " + Compare1.largest(s1, s2) + " lexiographically follows when comparing " + s1 + " and " + s2);
-        //System.out.println("Result using the Compare3 class: " + Compare3.largest(s1, s2) + " lexiographically follows when comparing " + s1 + " and " + s2);
+        System.out.println("Result using the Compare1 class: " + Compare1.largest(s1, s2) + " lexiographically follows when comparing " + s1 + " and " + s2);
+        System.out.println("Result using the Compare3 class: " + Compare3.largest(s1, s2) + " lexiographically follows when comparing " + s1 + " and " + s2);
        
         System.out.println();
         System.out.println("___________________________________________________");
@@ -30,8 +30,8 @@ public class LargestDriver
         System.out.println("Integer #2: ");
         Integer i2 = new Integer(scan.nextInt());
         System.out.println();
-        //System.out.println("Result using the Compare2 class: " + Compare2.largest(i1, i2) + " is the larger of " + i1 + " and " + i2);
-        //System.out.println("Result using the Compare3 class: " + Compare3.largest(i1, i2) + " is the larger of " + i1 + " and " + i2);
+        System.out.println("Result using the Compare2 class: " + Compare2.largest(i1, i2) + " is the larger of " + i1 + " and " + i2);
+        System.out.println("Result using the Compare3 class: " + Compare3.largest(i1, i2) + " is the larger of " + i1 + " and " + i2);
         System.out.println();
         System.out.println("Continue?  Y/N");
         if (!scan.next().equals("Y")) {again = false;}
