@@ -18,15 +18,12 @@ public class Compare1
         this.s1 = s1;
         this.s2 = s2;
     }
-        public static int largest(String s1, String s2){
-            if (s1.compareTo(s2) < 0){
-            return -1;
-        }
-        else if((s1.compareTo(s2) > 0)){
-            return 1;
+        public static String largest(String s1, String s2){
+            if (s1.compareTo(s2)>0){
+            return s1;
         }
         else {
-            return 0;
+            return s2;
         }
     
     }

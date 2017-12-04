@@ -4,5 +4,5 @@ comment1.params=s1\ s2
 comment1.target=Compare1(java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Compare1\r\n
 comment2.params=s1\ s2
-comment2.target=int\ largest(java.lang.String,\ java.lang.String)
+comment2.target=java.lang.String\ largest(java.lang.String,\ java.lang.String)
 numComments=3
